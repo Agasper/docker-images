@@ -6,4 +6,4 @@ RUN apt-get update && \
       git mercurial && \
     adduser --disabled-password --gecos '' agasper && adduser agasper sudo && echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers && \
     apt-get clean && \
-    rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/* /download/directory
+    rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
